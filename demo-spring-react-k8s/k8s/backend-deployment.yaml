@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-backend
-        image: YOUR_REGISTRY/demo-backend:latest
+        image: gcr.io/week11-dn-478703/demo-backend:latest
         ports:
         - containerPort: 8080
         resources:

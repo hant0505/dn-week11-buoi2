@@ -13,7 +13,8 @@ spec:
         app: demo-frontend
     spec:
       containers:
-      - name: demo-frontend
-        image: asia-southeast1-docker.pkg.dev/week11-dn-478703/dn-week11-buoi2/demo-frontend:latest
-        ports:
-        - containerPort: 80
+        - name: demo-frontend
+          image: asia-southeast1-docker.pkg.dev/week11-dn-478703/dn-week11-buoi2/demo-frontend:v1
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80

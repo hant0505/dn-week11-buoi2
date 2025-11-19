@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-backend
-        image: gcr.io/week11-dn-478703/demo-backend:latest
+        image: image: asia-southeast1-docker.pkg.dev/week11-dn-478703/demo-repo/demo-backend:latest
         ports:
         - containerPort: 8080
         resources:
